@@ -7,7 +7,7 @@ RPC endpoint with "default" pruning: http://38.242.235.176:26657/ (hosted by wom
 
 1. Follow official documentation in order to setup a full node in Neutron Testnet: https://github.com/neutron-org/testnets/tree/main/quark.
 Make sure you use the actual version of ``neutrond``.
-2. Set up a service to run ``neutrond binary``.
+2. Set up a service to run ``neutrond`` binary.
 3. Make sure it is stopped and reset database:
 ```
 sudo systemctl stop neutrond.service
